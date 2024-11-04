@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Ngubs giveaways</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                        <li><a href="contact us.html">Contact Us</a></li>
+                        <li><a href="our sevices.html">Our Services</a></li>
+                        <li><a href="sign up.html">Sign Up</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        </div>
+    </nav>
+    <main>
+        <h1 align="center"<i>HOME</i></h1>
+        <h2 align="center" section><i>Food for all#IzandlaZiyagezana</i></section></h2>
+        <h3 align="center" <br>Welcome to Ta Ngubs giveaways</br></h3>
+    
+        <br>Providing food and hope to those in need.</br>
+        
+        <p style="color: brown;"><b>At Ta Ngubs giveaways, we believe that everyone deserves access to nutritious food and a chance to thrive. Our mission is to deliver food parcels to individuals and families struggling with food insecurity, while promoting self-sufficiency and community connection.</b></p>
+        
+       <h2> What We Do</h2>
+    </br>
+    
+        <section>
+        - Deliver monthly food parcels to those in need
+        - Offer emergency food assistance in crisis situations</br>
+        - Provide nutrition education and resources</br>
+        - Connect recipients with local support services</br>
+    </section>
+    
+    <div>
+        <h2>How You Can Help</h2>
+    
+        - Donate food, funds, or time to support our mission</br>
+        - Volunteer for food parcel assembly and distribution</br>
+        - Spread the word about Hope Basket's services</br>
+    </div>
+        
+        <h2>Make a Difference</h2>
+        
+        <div>
+        <h2>Your support can help:</h2>
+        - Feed a family for a month</br>
+        - Provide emergency assistance in a crisis</br>
+        - Empower individuals with nutrition education</br>
+    </div>
+    
+        <h3>Join Our Community</h3>
+        
+        <div>
+        <h2>Stay updated on our mission, events, and stories of hope.</h2>
+        - Follow us on social media</br>
+        - Sign up for our newsletter</br>
+        - Contact us to learn more</br>
+    </div>
+    <br>
+        <section><i><b>Together, we can make a difference in the lives of those struggling with food insecurity. Donate, volunteer, or spread the word today!</i></b></section>
+        <br>
+        <a href="emailto:tangubsgiveaways@gmail.com">
+        <button style="background-color: bisque(52,236,135);border-radius: 5px;width:fit-content ;"></button>
+        </a>
+        <br>
+        <section align="center" To view the product press the button below</section>
+        <a href="">
+        <button style="background-color: aqua;border-radius: 5px;">VIEW PRODUCT</button>
+        </a>
+        </main>
+    
+        <hr>
+        <footer>
+            <div id="current-date"></div>
+            2024 Copyright NGO. All rights reserved
+            <h3>Subscribe to Our Newsletter</h3>
+            <p>Receive the latest updates and news.</p>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScZf4_gP_nPmDnaa3HJNQOFTZ9WTsqzNtehe9wVktKwK0oPmA/viewform?embedded=true" width="640" height="665" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        
+        </footer>
+        
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const menuToggle = document.querySelector('.menu-toggle');
+                const navLinks = document.querySelector('.nav-links');
+        
+                menuToggle.addEventListener('click', function () {
+                    navLinks.classList.toggle('active');
+                });
+            });
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const dateElement = document.getElementById('current-date');
+                const currentDate = new Date();
+                const options = { year: 'numeric', month: 'long', day: 'numeric' };
+                dateElement.textContent = currentDate.toLocaleDateString(undefined, options);
+            });
+        </script>
+        
+        
+        
+</body>
+</html>

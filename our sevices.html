@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=-, initial-scale=1.0">
+    <title>Document</title>
+    <title>Ta Ngubs</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Ngubs giveaways</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About us</a></li>
+                        <li><a href="contact us.html">Contact Us</a></li>
+                        <li><a href="our sevices.html">Our Services</a></li>
+                        <li><a href="sign up.html">Sign Up</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        </div>
+    </nav>
+<main>
+    <img src="images/Donation.jpg"align="center" width="200" height="200">
+  <body>
+   <h1 align="center" <br>Our Services</br> </h1>
+
+ 
+
+       <p> At Ta Ngubs giveaways, we provide essential support to individuals and families in need through our food parcel program.</p>
+
+       <div>
+ <h2>Our services include:</h2> 
+        
+        <h4> Food Parcels:</h4>
+        We deliver nutritious food parcels to those struggling with food insecurity, tailored to meet dietary needs and preferences.</br>
+        
+        <h4>Emergency Food Assistance:</h4>
+         We offer immediate support for individuals facing crisis situations, providing emergency food parcels and vouchers for groceries. </br>
+        
+        <>Fresh Produce and Groceries:</br>
+        Our parcels include fresh produce, protein sources, and essential groceries to ensure our recipients receive a balanced diet. </br>
+        
+        <h4>Nutrition Education:</h4>
+       <section> We offer workshops and cooking classes to promote healthy eating habits and provide recipes and meal planning resources.</section> 
+        
+        <h4>Referral Services:</h4>
+       <section>We connect our recipients with local resources for housing, employment, and healthcare, and offer supportive counseling and advocacy.</section>  
+    </div>
+        
+        <div>
+    <br>Our services are designed to:  </br>      
+       - Provide immediate relief from food insecurity </br>
+       - Support long-term self-sufficiency </br>
+       - Foster a sense of community and connection among our recipients </br>
+      
+       
+ </br>       
+       <h2>We serve: </h2>
+       <section>
+        - Low-income families </br>
+        
+        - Individuals experiencing homelessness </br>
+        
+        - Seniors and disabled individuals </br>
+        
+        - Those affected by crisis situations (e.g., natural disasters, job loss) </br>
+    </section>
+    </div>
+        <br>
+        <section><b>Our goal is to deliver hope and nourishment to those who need it most. If you or someone you know is struggling with food insecurity, contact us to learn more about our services and eligibility requirements.</b></section>
+
+</main>
+
+<hr>
+<footer>
+    <div id="current-date"></div>
+    2024 Copyright NGO. All rights reserved
+</footer>
+
+    <hr>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+    
+            menuToggle.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dateElement = document.getElementById('current-date');
+            const currentDate = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            dateElement.textContent = currentDate.toLocaleDateString(undefined, options);
+        });
+    </script>
+    
+    
+</body>
+</html>     

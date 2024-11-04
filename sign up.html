@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=-, initial-scale=1.0">
+    <title>Document</title>
+    <title>Ta Ngubs</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Ngubs giveaways</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About us</a></li>
+                        <li><a href="contact us.html">Contact Us</a></li>
+                        <li><a href="our sevices.html">Our Services</a></li>
+                        <li><a href="sign up.html">Sign Up</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        </div>
+    </nav>
+    <main>
+        <img src="images/Food Drive.jpg" width="250" height="300">
+        <h1 align="center" <br>Sign Up</br> </h1>
+       
+        <form>
+            <div>
+ 
+                <label>Name:</label>
+                <input type="text" required placeholder=""
+
+            </div>
+
+ 
+        </form>
+
+        <form>
+            <div>
+
+                <label>Surname:</label>
+                <input type="text" required placeholder=""
+                
+            </div>
+
+
+        </form>
+
+        <form>
+            <div>
+
+                <label>Email:</label>
+                <input type="text" required placeholder=""
+                
+            </div>
+
+
+        </form>
+
+        <form>
+            <div>
+
+                <label>Type Of Donation:</label>
+                <input type="text" required placeholder=""
+                
+            </div>
+
+
+        </form>
+
+        <form>
+            <div>
+
+                <label>Amount:</label>
+                <input type="text" required placeholder=""
+                
+            </div>
+
+
+        </form>
+
+        <form>
+            <div>
+
+                <label>Donor:</label>
+                <input type="text" required placeholder=""
+                
+            </div>
+
+
+        </form>
+   
+    </main>
+    <hr>
+    <footer>
+        <div id="current-date"></div>
+        2024 Copyright NGO. All rights reserved
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+    
+            menuToggle.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dateElement = document.getElementById('current-date');
+            const currentDate = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            dateElement.textContent = currentDate.toLocaleDateString(undefined, options);
+        });
+    </script>
+    
+    <hr>
+</body>

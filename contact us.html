@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=-, initial-scale=1.0">
+    <title>Document</title>
+    <title>Ta Ngubs</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Ngubs giveaways</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                        <li><a href="contact us.html">Contact Us</a></li>
+                        <li><a href="our sevices.html">Our Services</a></li>
+                        <li><a href="sign up.html">Sign Up</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        </div>
+    </nav>
+<main>
+    <img src="images/Cloths delivery.jpg" width="300" height="300">
+    <h2 align="center"<i>GET IN TOUCH</i></h2>
+   
+    <h3 align="center"<i> CONTACT FORM</i></h3>
+<form>
+    <div>
+
+        <label>Name:</label>
+        <input type="text" required placeholder=""
+
+    </div>
+
+
+</form>
+
+<form>
+    <div>
+
+        <label>Email:</label>
+        <input type="text" required placeholder=""
+
+    </div>
+
+
+</form>
+
+<form>
+    <div>
+
+        <label>Phone no.:</label>
+        <input type="text" required placeholder=""
+
+    </div>
+
+
+</form>
+
+<form>
+    <div>
+
+        <label>Message:</label>
+        <input type="text" required placeholder=""
+
+    </div>
+
+
+</form>
+
+<h2>CONTACT INFORMATION</h2>
+Address: 123 Main St, Randburg, South Africa<br>
+Phone: 555-555-5555<br>
+Email: tangubsgiveaway@gmail.com<br>
+
+<h2>OFFICE HOURS</h2>
+Monday - Friday, 9am - 5pm<br>
+Saturday-Sunday, 9am - 2pm<br>
+
+<h2> RESOURCES</h2>
+FAQs | Support | Contact Our Team<br>
+
+
+</main>
+<hr>
+<footer>
+    <div id="current-date"></div>
+    2024 Copyright NGO. All rights reserved
+   </Footer>
+
+<hr>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', function () {
+            navLinks.classList.toggle('active');
+        });
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const dateElement = document.getElementById('current-date');
+        const currentDate = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        dateElement.textContent = currentDate.toLocaleDateString(undefined, options);
+    });
+</script>
+<script>
+    function clearField(field) {
+        if (field.value === field.defaultValue) {
+            field.value = '';
+        }
+    }
+
+    function validateForm() {
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var message = document.getElementById('message').value;
+
+        if (!name) {
+            alert("Name is required.");
+            return false;
+        }
+
+        if (!email) {
+            alert("Email is required.");
+            return false;
+        }
+
+        if (!message) {
+            alert("Message is required.");
+            return false;
+        }
+
+        return true; 
+    }
+</script>
+
+
+    </body>
+</html> 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>

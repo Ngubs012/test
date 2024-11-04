@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=-, initial-scale=1.0">
+    <title>Document</title>
+    <title>Ta Ngubs</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Ngubs giveaways</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                        <li><a href="contact us.html">Contact Us</a></li>
+                        <li><a href="our sevices.html">Our Services</a></li>
+                        <li><a href="sign up.html">Sign Up</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+        </div>
+    </nav>
+    <main>
+        <img src="images/Food collection.jpg" width="300" height="300">
+<h2 align="center" <br>About Us </br></h2>
+
+ 
+
+    At Ta Ngubs giveaways, we believe that everyone deserves access to nutritious food and a chance to thrive. Our organization is dedicated to providing food parcels to individuals and families in need, bridging the gap between resources and those who need them most. </br>
+    
+    
+    
+ <h2 align="center" <br>  Our Mission </br></h2>
+    
+     
+    
+    Our mission is to deliver hope and nourishment to our community's most vulnerable members. We strive to:</br> 
+    
+     
+    
+    - Provide monthly food parcels to those struggling with food insecurity </br>
+    
+    - Offer support and resources for long-term self-sufficiency </br>
+    
+    - Foster a sense of community and connection among our recipients </br>
+    
+       
+    
+    <h2 align="center" <br> Our Story </br></h2>
+    
+     
+    
+    Ta Ngubs giveaways was founded by a group of passionate individuals who saw the devastating effects of food insecurity in their community. With a shared vision of making a difference, they came together to create an organization that would provide tangible support to those in need.</br> 
+    
+     
+    
+    <h2 align="center" <br>  Our Values </br></h2>
+    
+     
+    
+    - Compassion: We care deeply about the well-being of our recipients </br>
+    
+    - Integrity: We operate with transparency and accountability </br>
+    
+    - Community: We believe in the power of connection and support </br>
+    
+    - Empowerment: We aim to equip individuals with tools for self-sufficiency </br>
+    
+     
+  
+    <h2 align="center" <br>Our Team </br></h2>
+    
+     
+    
+    Meet the dedicated individuals who make Ta Ngubs giveaways mission a reality: </br>
+    
+     
+    
+    - Musa Ngubeni, Executive Director </br>
+    
+    -Moses Mamela  Program Manager </br>
+    
+    - Petrek Nhlapo, Volunteer Coordinator </br>
+    
+     
+    
+    <h2 align="center" <br>How To Get Involved</br> </h2>
+    
+     
+    
+ Join us in our mission to spread hope and nourishment! Learn how you can: </br>
+    
+     
+    
+    - Volunteer your time </br>
+    
+    - Donate resources </br>
+    
+    - Spread the word </br>
+    
+     
+    
+     <br>Together, we can make a difference in the lives of those who need it most. </br>
+    </main><br>
+    <hr>
+    <footer>
+        <div id="current-date"></div>
+        2024 Copyright NGO. All rights reserved
+    </footer>
+    
+    <hr>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+    
+            menuToggle.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dateElement = document.getElementById('current-date');
+            const currentDate = new Date();
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            dateElement.textContent = currentDate.toLocaleDateString(undefined, options);
+        });
+    </script>
+    
+</body>
+</html>
